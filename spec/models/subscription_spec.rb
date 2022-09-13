@@ -2,15 +2,15 @@ require 'rails_helper'
 
 RSpec.describe Subscription, type: :model do
   describe 'relationships' do
-    it { should have_many :customer_subscriptions }
-    it { should have_many :subscription_teas }
-    it { should have_many(:customers).through :customer_subscriptions }
-    it { should have_many(:teas).through :subscription_teas }
+    it { should belong_to :tea }
+    it { should belong_to :customer }
   end
 
   describe 'factories' do
     it 'can make a Subscription with a factory' do
-      sub = create(:subscription)
+      tea = create(:tea)
+      cust = create(:customer)
+      sub = create(:subscription, tea_id: tea.id, customer_id: cust.id)
 
       expect(sub.title).to be_a String
       expect(sub.price).to be_a Float
