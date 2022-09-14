@@ -48,7 +48,7 @@
 - Sample request
   `GET /api/v1/customer_subscriptions/1`
 - Sample response
-  ```
+```
     "data": [
         {
             "id": "1",
@@ -76,4 +76,4 @@
         }
     ]
 }
-  ```
+```
