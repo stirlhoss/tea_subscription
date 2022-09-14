@@ -1,5 +1,6 @@
 # Tea Subscription Api
-![image](./assets/images/'Screenshot from 2022-09-06 15-50-25.png')
+![Screenshot from 2022-09-06 15-50-25](https://user-images.githubusercontent.com/96191917/190271348-a2824d0e-989f-4b8a-88c0-43b95747944a.png)
+
 
 ## Prerequisites
 - Rails 7.0.3.1
