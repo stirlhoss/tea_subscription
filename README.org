@@ -1,5 +1,5 @@
 * Tea Subscription Api
-
+![db](/assets/images/'Screenshot from 2022-09-06 15-50-25.png')
 [[./assets/images/'Screenshot from 2022-09-06 15-50-25.png']]
 ** Prerequisites
 - Rails 7.0.3.1
