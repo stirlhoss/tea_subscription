@@ -9,6 +9,12 @@ class Api::V1::SubscriptionsController < ApplicationController
     end
   end
 
+  def update
+    sub = Subscription.find(params[:id])
+    sub.update(status: params[:status])
+    render json: { response: 'Subscription has been cancelled.' }
+  end
+
   private
 
   def subscription_params
