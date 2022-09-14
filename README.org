@@ -1,4 +1,5 @@
 * Tea Subscription Api
+#+ATTR_HTML: [[./assets/images/'Screenshot from 2022-09-06 15-50-25.png']]
 #+ATTR[[_HTML: ./assets/images/'Screenshot from 2022-09-06 15-50-25.png']]
 ** Prerequisites
 - Rails 7.0.3.1
