@@ -16,7 +16,7 @@
 ## Endpoints
 ### Create a subscription
 - Sample request
-  `POST /api/v1/subscriptions?title=Subscription&price=9.99&status=active&frequency=4&customer_id=1&tea_id=1`
+  - `POST /api/v1/subscriptions?title=Subscription&price=9.99&status=active&frequency=4&customer_id=1&tea_id=1`
 
 - Sample response
 ```
@@ -38,7 +38,7 @@
 
 ### Cancel a subscription
 - Sample request
-  `PATCH /api/v1/subscriptions/2?status=cancelled'`
+  - `PATCH /api/v1/subscriptions/2?status=cancelled'`
 - Sample response
 ```
 {
@@ -47,7 +47,7 @@
 ```
 ### Request all subscriptions from one customer
 - Sample request
-  `GET /api/v1/customer_subscriptions/1`
+  - `GET /api/v1/customer_subscriptions/1`
 - Sample response
 ```
     "data": [
@@ -78,3 +78,6 @@
     ]
 }
 ```
+### Plans for future features
+- I would like to update this api with GraphQL. I believe that GraphQL will make the api much more flexible for the end user.
+- Altering the DB so that more than one tea can be inculuded on a subcription. 
